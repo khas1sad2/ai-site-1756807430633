@@ -1,3 +1,4 @@
+import AIComponent1 from './AIComponent1'
 import AIShowcase from './AIShowcase'
 import Image from "next/image";
 
@@ -52,6 +53,7 @@ export default function Home() {
           </a>
         </div>
         <AIShowcase />
+      <AIComponent1 />
     </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
